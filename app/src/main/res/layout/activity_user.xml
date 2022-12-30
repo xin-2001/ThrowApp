@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Activity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#AAEEFF"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="使用者資料"
+            android:textSize="14pt" />
+
+        <Button
+            android:id="@+id/button_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="#11BBFF"
+            android:text="登出"/>
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="left"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="王小明"
+            android:textSize="100px"
+            android:layout_marginBottom="10dp"
+            android:letterSpacing="0.1"/>
+        <TextView
+            android:id="@+id/textStuID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="學　號：CCC110003"
+            android:textSize="70px"
+            android:padding="15dp" />
+        <TextView
+            android:id="@+id/textGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性　別：女"
+            android:textSize="70px"
+            android:padding="15dp"/>
+        <TextView
+            android:id="@+id/textBirthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="生　日：1998/05/05"
+            android:textSize="70px"
+            android:padding="15dp"/>
+        <TextView
+            android:id="@+id/textHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="身　高：180公分"
+            android:textSize="70px"
+            android:padding="15dp"/>
+        <TextView
+            android:id="@+id/textWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="體　重：60公斤"
+            android:textSize="70px"
+            android:padding="15dp"/>
+        <TextView
+            android:id="@+id/textHand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="慣用手：右手"
+            android:textSize="70px"
+            android:padding="15dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/button_history"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="歷史紀錄"
+            android:textSize="40px"
+            android:layout_margin="20dp"
+            android:padding="15dp"
+            android:backgroundTint="#66AAFF"/>
+        <Button
+            android:id="@+id/button_newTrain"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="新訓練"
+            android:textSize="40px"
+            android:layout_margin="20dp"
+            android:padding="15dp"
+            android:backgroundTint="#66AAFF"/>
+
+
+    </LinearLayout>
+</LinearLayout>

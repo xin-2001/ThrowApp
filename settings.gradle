@@ -1,0 +1,3 @@
+
+rootProject.name = "ThrowApp"
+include ':app'
